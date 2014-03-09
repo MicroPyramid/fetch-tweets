@@ -23,8 +23,9 @@ function tweets(tws){
 			console.log(o);
 		});	
 	}
+// this will fetch tweets of the given widget id and pass the tweets to tweets function
+tw.fetch('352009122125856768', 20, tweets); 
 
-tw.fetch('352009122125856768', 20, tweets); // this will fetch tweets of the given widget id and pass the tweets to tweets function
 ```
 
 I made is as simple as i can so, you can extend it as you wish. Let me know if you need any additions. 
