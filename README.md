@@ -16,13 +16,12 @@ Now look at the URL in your web browser, you will see a long number like this: 4
 Use this as your ID below! 7
 
 
-'''javascript
+```javascript
 function tweets(tws){
 		$.each(tws, function(i,o){
 			// You can do as you wish with the values in 'o' objects.
 			console.log(o);
-		});
-		
+		});	
 	}
 
 tw.fetch('352009122125856768', 20, tweets); // this will fetch tweets of the given widget id and pass the tweets to tweets function
