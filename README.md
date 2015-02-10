@@ -29,3 +29,7 @@ tw.fetch('441110970094473216', 20, tweets);
 ```
 
 I made is as simple as i can so, you can extend it as you wish. Let me know if you need any additions. 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MicroPyramid/fetch-tweets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
